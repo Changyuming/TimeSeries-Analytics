@@ -35,8 +35,13 @@ def receive_2(name):
 '''
 @app.route('/' , methods=['GET','POST'])
 def content_hello():
-    print("hello")
+    #print("hello")
     return  'Hello !'
+
+@app.route('/0101' , methods=['GET','POST'])
+def WTDD_hello():
+    #print("hello")
+    return  'HeEEEElLLLLLlo !'
 '''
 @app.route('/DB' , methods=['GET','POST'])
 def content_DBoutput():
