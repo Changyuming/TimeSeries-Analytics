@@ -66,5 +66,5 @@ if __name__ == '__main__':
         port = port,
         debug=True,
         use_reloader=False,
-        threaded=False
+        threaded=True
     )
